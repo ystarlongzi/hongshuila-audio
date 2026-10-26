@@ -1,0 +1,187 @@
+哄睡啦 · Audio credits · Source review: 2026-10-25
+
+哄睡啦：截取片段、合并为单声道、重采样、滤波、处理动态与电平并处理循环接缝；保留原作者授权，不代表作者为本产品背书。
+
+[rain] rain on leaves
+Creator: Gravity Sound
+Source: https://commons.wikimedia.org/wiki/File:Rain_on_leaves_(Gravity_Sound).wav
+License: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Distribution / license record: https://commons.wikimedia.org/w/index.php?oldid=633835431
+Changes by Hongshuila: excerpt starting at 18s; mono 32000Hz PCM16; high-pass 70Hz, low-pass 6500Hz; dynamic loudness processing and level adjustment; 1s loop overlap.
+Note: 树叶上的雨声；另用于「雨夜小屋」，播放时额外做低通处理。
+The original recording comes without warranties from its licensor. See the linked license for the complete disclaimer and terms. No endorsement is implied.
+Local file: /audio/rain-v1.wav
+SHA-256: eeb98bb466b6a6f088844f98d2f34d8aba4e7791c513f66fe0c16c9df440b573
+
+[fan] WWS Ventilationfan
+Creator: Work With Sounds / Technical Museum of Slovenia；录音：Boštjan Troha
+Source: https://commons.wikimedia.org/wiki/File:WWS_Ventilationfan.ogg
+License: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Distribution / license record: https://commons.wikimedia.org/w/index.php?oldid=978650718
+Changes by Hongshuila: excerpt starting at 35s; mono 32000Hz PCM16; high-pass 70Hz, low-pass 3500Hz; dynamic loudness processing and level adjustment; 1s loop overlap.
+Note: 通风风扇实录，录于斯洛文尼亚矿井；并非家用风扇录音。
+The original recording comes without warranties from its licensor. See the linked license for the complete disclaimer and terms. No endorsement is implied.
+Local file: /audio/fan-v1.wav
+SHA-256: 5626838729345d05cc85ad9518913dc46cf2f0d21d535863c4d43f8d509425be
+
+[ocean] oceanwavescrushing.wav
+Creator: Luftrum
+Source: https://freesound.org/people/Luftrum/sounds/48412/
+License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/
+Distribution / license record: https://commons.wikimedia.org/w/index.php?oldid=1129833281
+Changes by Hongshuila: excerpt starting at 56s; mono 32000Hz PCM16; high-pass 70Hz, low-pass 6500Hz; dynamic loudness processing and level adjustment; 1s loop overlap.
+Note: 丹麦海岸浪花实录。采用 Commons 分发版本的 CC BY 3.0；作者现页另标 CC BY 4.0。
+The original recording comes without warranties from its licensor. See the linked license for the complete disclaimer and terms. No endorsement is implied.
+Local file: /audio/ocean-v1.wav
+SHA-256: ef3074250394f15af00244693c4eed6ecd838ddbde95ebe0a2d1612a31909504
+
+[stream] Stream River Water Up Close
+Creator: jackthemurray
+Source: https://freesound.org/people/jackthemurray/sounds/433589/
+License: CC0 1.0 — https://creativecommons.org/publicdomain/zero/1.0/
+Distribution / license record: https://commons.wikimedia.org/w/index.php?oldid=768226425
+Changes by Hongshuila: excerpt starting at 6s; mono 32000Hz PCM16; high-pass 70Hz, low-pass 6500Hz; dynamic loudness processing and level adjustment; 1s loop overlap.
+Note: 近距离流水实录；原作者以 CC0 发布，本站自愿保留鸣谢。
+The original recording comes without warranties from its licensor. See the linked license for the complete disclaimer and terms. No endorsement is implied.
+Local file: /audio/stream-v1.wav
+SHA-256: 5608f7b76b40743cf5d4dc2eeb21a65e8545db80e503a3c556c6cae9783272b1
+
+雨夜小屋 / cabin uses the rain recording above with an additional 1000Hz low-pass filter. Same attribution and CC BY 4.0 apply.
+
+White / pink / brown noise and synthetic shushing: generated locally by application code, no third-party recordings. Pink-noise filter reference: Paul Kellet — https://www.firstpr.com.au/dsp/pink-noise/ (algorithm only; no example recordings used).
+
+CC licenses apply to the corresponding recordings. No author endorsement is implied. No DRM or additional restrictions are applied to those recordings.
+
+Imported audio / 哄娃白噪音: https://hwbzy.cn/#player
+
+来源网站未公开逐条作者与开放许可；本站保留来源及处理记录，不将这些音频标为 CC 授权或自制作品。
+
+[shush-steady] 嘘~持续音
+Source item: 1; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E5%98%98~_transcode_1697028.m4a
+Local file: /audio/shush-steady-v2.m4a; SHA-256: 4d46fc94aafb61f5d7b915347c4508731ef12b4148c0ae36c3e838d27b7f60b7
+Changes: excerpt from 133s for 118s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: 264a834c2f1d680207856cd916d8dffad0e654af9dadcd2cbfa3fa04129e1988. Playback gain may be reduced based on measured peak level.
+
+[shush-pulsed] 嘘~断续音
+Source item: 2; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E5%98%98~%E6%96%AD%E7%BB%AD%E9%9F%B3_transcode_1697028.m4a
+Local file: /audio/shush-pulsed-v2.m4a; SHA-256: e95d194e718e7facff414ba17945f91f70fb39cd78d22afefde0ada1880accb0
+Changes: excerpt from 131s for 126s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: eddd92365e7332521e5fd4a1e2de811107c2eb00d67299e4da926237f385030b. Playback gain may be reduced based on measured peak level.
+
+[womb] 子宫律动
+Source item: 3; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E5%AD%90%E5%AE%AB%E7%8E%AF%E5%A2%83_transcode_1697028.m4a
+Local file: /audio/womb-v2.m4a; SHA-256: 2266328a1cc64f6190f7d0750601b410866111c647695735f640a8b2260426c8
+Changes: excerpt from 45s for 121.5s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: 72c12591590b660a242c10c3ebd3ff304b211aff8b0d7986116c9135d741edff. Playback gain may be reduced based on measured peak level.
+
+[dryer] 吹风机声
+Source item: 4; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E5%90%B9%E9%A3%8E%E6%9C%BA_transcode_1697028.m4a
+Local file: /audio/dryer-v2.m4a; SHA-256: 1b30d358f5ce44109f098a1d2d9b47ff8290a9875b9fde2914c19dda2c45dabd
+Changes: excerpt from 49s for 123.1s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: 0ad5d9e5d3e39904afae5833c9ed98d2f70b3653c78b88bc92bed6e70dbe7d53. Playback gain may be reduced based on measured peak level.
+
+[vacuum] 吸尘器音
+Source item: 5; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E5%90%B8%E5%B0%98%E5%99%A8_transcode_1697028.m4a
+Local file: /audio/vacuum-v2.m4a; SHA-256: 3f1ac1c75a897203535963b5b2fdf9cefb9dda02d0f61a4674df29af8ba1af81
+Changes: excerpt from 10s for 122s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: 569c404a50658575d8f017e153b2b097cf5fb48473238d63567f8eec7b4dd612. Playback gain may be reduced based on measured peak level.
+
+[baby-soothing] 婴王哄睡
+Source item: 14; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E5%A9%B4%E7%8E%8B%E5%93%84%E7%9D%A1_transcode_1697028.m4a
+Local file: /audio/baby-soothing-v2.m4a; SHA-256: a9a00ad36e1b5326c896ad7ad0d211897cf44440477e6f77359f6263f8bc34ee
+Changes: excerpt from 43s for 118.2s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: bcbec4abc3315be660ee107b55ecaeb3094b52b51b71a31539b02b3440bc3c60. Playback gain may be reduced based on measured peak level.
+
+[alpha] 阿尔法脑波
+Source item: 15; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E9%98%BF%E5%B0%94%E6%B3%95%E8%84%91%E6%B3%A2_transcode_1697028.m4a
+Local file: /audio/alpha-v1.m4a; SHA-256: ef46a548f0d969846b043c7fea04f576d1370b2db03fc361901a362dcb6633a6
+Changes: original M4A file retained byte-for-byte; playback gain may be reduced based on measured peak level.
+
+[humming] 嗯嗯声
+Source item: 16; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E5%97%AF%E5%97%AF%E5%A3%B0_transcode_1697028.m4a
+Local file: /audio/humming-v2.m4a; SHA-256: 2df5a2430e8ec56567af3864cc06230d055047387eaf781c913260d8e0fc15e7
+Changes: excerpt from 39.3s for 104.833152s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: a98d79337b905570f1f381b80cc3f72aa0b5d0c0e5052c789398cf88ca683539. Playback gain may be reduced based on measured peak level.
+
+[babble] 婴语咿呀说话
+Source item: 17; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E5%A9%B4%E8%AF%AD%E5%92%BF%E5%91%80%E8%AF%B4%E8%AF%9D_transcode_1697028.m4a
+Local file: /audio/babble-v2.m4a; SHA-256: 8495fc49f451d9eca7b2b369f20756956b3670becc18698531f0d42d448ca6e8
+Changes: excerpt from 17.1s for 107.466485s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: 8724a51c2a7c96c8b815d4eda0c66548600be9b791c155658110bb3ff1eb6979. Playback gain may be reduced based on measured peak level.
+
+[pentatonic] 宫商角徵羽
+Source item: 18; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E5%AE%AB%E5%95%86%E8%A7%92%E5%BE%B5%E7%BE%BD_transcode_1697028.m4a
+Local file: /audio/pentatonic-v1.m4a; SHA-256: fe9ae48d498152533fea4e13df45e04fa8708cd89236639a37f1022afd48ad8b
+Changes: original M4A file retained byte-for-byte; playback gain may be reduced based on measured peak level.
+
+[hood] 油烟机声
+Source item: 19; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E6%B2%B9%E7%83%9F%E6%9C%BA%E5%A3%B0_transcode_1697028.m4a
+Local file: /audio/hood-v2.m4a; SHA-256: 73565165fce80c3caa1da8159eb5bf5acb08d4d717c939997fa3b2058cd57c04
+Changes: excerpt from 96.5s for 118s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: 4157c5b774cd7fc0adc7adc7a8ca290372231e07a731db9e72a16a738d98d726. Playback gain may be reduced based on measured peak level.
+
+[mahjong] 打麻将声
+Source item: 20; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E6%89%93%E9%BA%BB%E5%B0%86%E5%A3%B0_transcode_1697028.m4a
+Local file: /audio/mahjong-v1.m4a; SHA-256: 124be397cc721ce483efcf5035e3fd8e18b153a72fa8fe8c30224a5f90c3623a
+Changes: original M4A file retained byte-for-byte; playback gain may be reduced based on measured peak level.
+
+[shore] 海浪拍岸
+Source item: 6; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E6%B5%B7%E6%B5%AA%E5%A3%B0_transcode_1697028.m4a
+Local file: /audio/shore-v2.m4a; SHA-256: fcacd3e8422a03145c9b5fa51e35056b8202126d749eecf5b7fd39816b13b28c
+Changes: excerpt from 129.5s for 154s; original AAC packets retained without re-encoding; 4s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: a6f76d18560d3abf983aa2a79bfe29fed14697e9a69111c464fb916387da30bf. Playback gain may be reduced based on measured peak level.
+
+[brook] 溪流潺潺
+Source item: 7; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E6%BA%AA%E6%B5%81%E5%A3%B0_transcode_1697028.m4a
+Local file: /audio/brook-v2.m4a; SHA-256: d2319e59702f1925339779a4408b0af47780776c081545210a47ae12891a5583
+Changes: excerpt from 73s for 124.5s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: 78144a9024c4b9cf04d48c70963c39f75a33765ae5139cff519524fb907b5945. Playback gain may be reduced based on measured peak level.
+
+[drizzle] 淅沥雨声
+Source item: 8; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E9%9B%A8%E5%A3%B0_transcode_1697028.m4a
+Local file: /audio/drizzle-v2.m4a; SHA-256: 0317a18877c09bb280ebcb75e3dacd678e347e14fd1c367d965f45a9b1a4fccf
+Changes: excerpt from 115.5s for 118.5s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: 96999a39dbff73699c867bb0562d2f3adecf475f5b42d9e639fe16cded799ec9. Playback gain may be reduced based on measured peak level.
+
+[thunder] 雷雨交加
+Source item: 9; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E9%9B%B7%E9%9B%A8%E4%BA%A4%E5%8A%A0_transcode_1697028.m4a
+Local file: /audio/thunder-v2.m4a; SHA-256: 2e60ea24f1ded0300ef83cbcc8ce9056d9e586db3ea4d7d12884aba3ae3c5c38
+Changes: excerpt from 29s for 155s; original AAC packets retained without re-encoding; 4s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: e8309f7902c246f859833fd84713aa815a4d84d70294ada53dbe4970e0826366. Playback gain may be reduced based on measured peak level.
+
+[crowd] 人声嘈杂
+Source item: 10; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E4%BA%BA%E5%A3%B0%E5%98%88%E6%9D%82_transcode_1697028.m4a
+Local file: /audio/crowd-v2.m4a; SHA-256: e9237df1edb54d8e8fba16d0075fa35ab0edb2234d0b217d450a301ca658f7f5
+Changes: excerpt from 108.5s for 122s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: 989bfd863288720bb8d11bd6c6e7f38b7d8dac1514b9409ebfc055da4fbb19dc. Playback gain may be reduced based on measured peak level.
+
+[fire] 木柴燃烧
+Source item: 11; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E6%9C%A8%E5%A4%B4%E7%87%83%E7%83%A7%E5%A3%B0_transcode_1697028.m4a
+Local file: /audio/fire-v2.m4a; SHA-256: 8165f283c58fb94d3b35ce72c84e4ef18b60bb0108fbd48c8d3cee48b80c4348
+Changes: excerpt from 103.5s for 123.5s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: 096b2ed11e66fc80b896152817ceb7810c7a2429c3f683694595cff56ebcb4f8. Playback gain may be reduced based on measured peak level.
+
+[pond] 池塘水声
+Source item: 12; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E6%B1%A0%E5%A1%98%E5%A3%B0_transcode_1697028.m4a
+Local file: /audio/pond-v2.m4a; SHA-256: b8edce004fa846dbe4af77b1c6ba13d870397394e5b0353f1a4e5bf49b996724
+Changes: excerpt from 109s for 154s; original AAC packets retained without re-encoding; 4s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: 272794774b70a9c0644f02f933a11d8e71c254d5a695e466880965fdad3615a1. Playback gain may be reduced based on measured peak level.
+
+[engine] 引擎低轰
+Source item: 13; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E5%BC%95%E6%93%8E%E5%A3%B0_transcode_1697028.m4a
+Local file: /audio/engine-v2.m4a; SHA-256: d5b65996f8b99ecc24392e09ad97d2053b574369493897dde4c981f6f8b30db9
+Changes: excerpt from 96.5s for 124.45s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: 2e1faf72c113e00908f19fd90b30c19fb30e58052a22682ca97768d24bff5661. Playback gain may be reduced based on measured peak level.
+
+[shush-womb] 嘘嘘声+子宫环境
+Source item: 201; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E5%98%98%E5%98%98%E5%A3%B0%2B%E5%AD%90%E5%AE%AB%E7%8E%AF%E5%A2%83_transcode_1697028.m4a
+Local file: /audio/shush-womb-v2.m4a; SHA-256: de4d75587979c4ea51527ee1948e01b674a95f50156c719e354d03346626de1c
+Changes: excerpt from 83.5s for 119.4s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: 628c73ec499162de179390351e20107181a03ad1b6b6cf6e862488acffed12e6. Playback gain may be reduced based on measured peak level.
+
+[womb-heartbeat] 子宫环境+心跳声
+Source item: 202; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E5%AD%90%E5%AE%AB%E7%8E%AF%E5%A2%83%2B%E5%BF%83%E8%B7%B3%E5%A3%B0_transcode_1697028.m4a
+Local file: /audio/womb-heartbeat-v2.m4a; SHA-256: cd67edb5eb34c4a554dc57c9af2665df177ed71874ca6ba08229d2e3a68088c9
+Changes: excerpt from 133.5s for 122s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: 4864941dc2d0a8d6e1b9cb616352553dfb1e616eb8f0bcd9a254a395a2381d2c. Playback gain may be reduced based on measured peak level.
+
+[engine-rain] 引擎声+雨声
+Source item: 203; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E5%BC%95%E6%93%8E%E5%A3%B0%2B%E9%9B%A8%E5%A3%B0_transcode_1697028.m4a
+Local file: /audio/engine-rain-v2.m4a; SHA-256: 5837f98c59d0e932ee1e7b6200c3581ba9caa92a1651bbcd76d7e9d4bf09eaf0
+Changes: excerpt from 139s for 124.5s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: a8e3c984a4667970220b8d08bc96d2a897935e16c11f26e2ebf8cf8d22aade9a. Playback gain may be reduced based on measured peak level.
+
+[dryer-waves] 吹风机+海浪声
+Source item: 204; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E5%90%B9%E9%A3%8E%E6%9C%BA%2B%E6%B5%B7%E6%B5%AA%E5%A3%B0_transcode_1697028.m4a
+Local file: /audio/dryer-waves-v2.m4a; SHA-256: 343bab2b9209da4ac80023ffc6aa37efee94853b4e120b2b57558968222f2668
+Changes: excerpt from 127.5s for 153s; original AAC packets retained without re-encoding; 4s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: f54a9e100a03149232762fbf60cba0d824407cfac2f139074d267840eb96c248. Playback gain may be reduced based on measured peak level.
+
+[brook-crowd] 溪流声+人声嘈杂
+Source item: 205; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E6%BA%AA%E6%B5%81%E5%A3%B0%2B%E4%BA%BA%E5%A3%B0%E5%98%88%E6%9D%82_transcode_1697028.m4a
+Local file: /audio/brook-crowd-v2.m4a; SHA-256: 862cf4ed665fa8233edbbab8f585aa3e6212db1f97c54100a95226930636ae2f
+Changes: excerpt from 59.5s for 121.5s; original AAC packets retained without re-encoding; 2s correlation-adjusted equal-power overlap and sample-accurate looping applied in the player. Original SHA-256: 7400e7761f2926d6f60fe227687aa623f0d8e49f524cd8d3bd1903ec20d2802d. Playback gain may be reduced based on measured peak level.
+
+[rain-piano] 下雨声+钢琴
+Source item: 206; original file: https://baizaoyin-1417035997.cos.ap-guangzhou.myqcloud.com/output/%E4%B8%8B%E9%9B%A8%E5%A3%B0%2B%E9%92%A2%E7%90%B4_transcode_1697028.m4a
+Local file: /audio/rain-piano-v1.m4a; SHA-256: 435348da60bda57086bd7440177971b43a09e0186c141583323c8e22e1d903cf
+Changes: original M4A file retained byte-for-byte; playback gain may be reduced based on measured peak level.
